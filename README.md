@@ -4,7 +4,8 @@
 
 
 ## Description
-A simple layout created as part of the CodeRoad course
+A simple layout created as part of the CodeRoad course.
+Layout based on Flexbox.
 
 ## Used technologies!
 
