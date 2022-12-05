@@ -1,6 +1,7 @@
 @charset "UTF-8";
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -150,6 +151,7 @@ img {
     right: -300px;
     text-align: left;
     z-index: 2;
+    transition: all 0.8s ease-in-out;
   }
 }
 
@@ -175,6 +177,10 @@ img {
   background-color: #0ABCEB;
   border: 1px solid #0ABCEB;
   width: 17rem;
+}
+.btn--pricelist:hover {
+  background-color: #58d5f7;
+  border: 1px solid #58d5f7;
 }
 .btn--submit {
   width: 12.5rem;

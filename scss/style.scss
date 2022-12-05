@@ -56,6 +56,7 @@ $p: 1.4rem;
 //basic
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth
 }
 
 body {
@@ -171,7 +172,6 @@ img {
             font-size: $h3;
             color: $basetext;
             font-weight: 600;
-
         }
 
 
@@ -228,6 +228,7 @@ img {
             right: -300px;
             text-align: left;
             z-index: 2;
+            transition: all .8s ease-in-out;
         }
     }
 
@@ -259,6 +260,11 @@ img {
         background-color: $primary;
         border: 1px solid $primary;
         width: 17rem;
+        &:hover {
+            background-color: $secondary;
+            border: 1px solid $secondary;
+
+        }
     }
 
     &--submit {
